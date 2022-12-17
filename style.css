@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(135deg , red , yellow);
+}
+.container{
+text-align: center;
+
+width: 100%;
+display:flex ;
+justify-content: center;
+position: absolute;
+top: 30%;
+}
+
+.box{
+   background: linear-gradient(60deg , aqua , gray,blue);
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 70vw;
+height: 300px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(241, 227, 227);
+    border-radius: 20px;
+}
+#btn{
+    width: 110px;
+    height: 30px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    background: linear-gradient(90deg ,rgb(219, 85, 85) , rgb(16, 16, 189));
+}
+#message{
+    font-size: 25px;
+}
